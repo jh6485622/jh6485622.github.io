@@ -1,2 +1,2 @@
 # jh.github.io
-test
+I made a testing website, I want everyone to help make the website better.
