@@ -1,1 +1,206 @@
-WOW
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            margin: 20px auto;
+            display: block;
+        }
+        
+        .section {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #3498db;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .about p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .skill-tag {
+            background-color: #3498db;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+        
+        .contact-item {
+            margin: 10px;
+            text-align: center;
+        }
+        
+        .contact-item i {
+            font-size: 1.5em;
+            color: #3498db;
+            margin-bottom: 5px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>欢迎来到我的个人网页</h1>
+            <p class="subtitle">这里展示我的技能、经历和联系方式</p>
+            <!-- 这里可以替换为您的实际照片 -->
+            <img src="https://via.placeholder.com/150" alt="头像" class="profile-img">
+        </header>
+        
+        <main>
+            <section class="section about">
+                <h2>关于我</h2>
+                <p>您好！我是[您的姓名]，一名热爱技术的开发者。我对编程充满热情，并致力于通过代码创造价值。在我的职业生涯中，我专注于[您擅长的领域，如前端开发、后端开发、数据分析等]。</p>
+                <p>我相信持续学习是成长的关键，因此我不断探索新技术并将其应用于实际项目中。我热衷于解决复杂问题，并乐于与团队合作实现目标。</p>
+            </section>
+            
+            <section class="section skills-section">
+                <h2>技能专长</h2>
+                <div class="skills">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">HTML/CSS</span>
+                    <span class="skill-tag">数据库设计</span>
+                    <span class="skill-tag">UI/UX 设计</span>
+                    <span class="skill-tag">项目管理</span>
+                </div>
+            </section>
+            
+            <section class="section experience">
+                <h2>工作经验</h2>
+                <h3>前端开发工程师 | [公司名称]</h3>
+                <p><strong>时间：</strong>2022年至今</p>
+                <p><strong>职责：</strong>负责公司产品的前端开发工作，使用React和Vue.js构建用户界面，优化用户体验和页面性能。</p>
+                
+                <h3>全栈开发实习生 | [公司名称]</h3>
+                <p><strong>时间：</strong>2021年 - 2022年</p>
+                <p><strong>职责：</strong>参与产品开发全流程，从前端界面到后端API设计，学习了完整的软件开发生命周期。</p>
+            </section>
+            
+            <section class="section contact">
+                <h2>联系我</h2>
+                <p>如果您有任何问题或合作意向，请随时联系我！</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div>📧</div>
+                        <div>邮箱：example@email.com</div>
+                    </div>
+                    <div class="contact-item">
+                        <div>📱</div>
+                        <div>电话：+86 123-4567-8900</div>
+                    </div>
+                    <div class="contact-item">
+                        <div>💼</div>
+                        <div>LinkedIn：linkedin.com/in/yourprofile</div>
+                    </div>
+                    <div class="contact-item">
+                        <div>🐱</div>
+                        <div>Github：github.com/yourusername</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2026 我的个人网页. 版权所有.</p>
+            <p>设计与开发：[您的姓名]</p>
+        </footer>
+    </div>
+</body>
+</html>
