@@ -1,0 +1,11 @@
+<local:MyCard Margin="0,0,0,15" Title="MC基岩版启动器" CanSwap="False">
+     <StackPanel Margin="25,40,23,15">
+          <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+               <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Margin="0,0,10,5"
+                    Text="启动MCBE" EventType="打开网页" EventData="minecraft://"
+                    ToolTip="如果你的电脑有MCBE，按下这个按钮将会启动它。" />
+          </StackPanel>
+     </StackPanel>
+</local:MyCard>
+<!-- 基岩版启动卡片 | 作者：MFn -->
+<!-- 出处：Homepage Plaza -->
