@@ -4,6 +4,7 @@
         <local:MyListItem Margin="-2,0,2,0" Logo="pack://application:,,,/images/blocks/Grass.png" Title="启动MCBE" Info="启动MCBE，需要安装MCBE" EventType="打开网页" EventData="minecraft://" Type="Clickable" />
         <local:MyListItem Margin="-2,0,2,0" Logo="pack://application:,,,/images/blocks/GoldBlock.png" Title="启动MCBE商店" Info="启动MCBE商店，需要安装MCBE" EventType="打开网页" EventData="minecraft://?showStoreHomeScreen=1" Type="Clickable" />
         <local:MyListItem Margin="-2,0,2,0" Logo="https://jh6485622.github.io/icon.png" Title="打开我的github.io" Info="打开我的github.io主页" EventType="打开网页" EventData="https://jh6485622.github.io/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="pack://application:,,,/images/blocks/CommandBlock.png" Title="网页重引导" Info="打开网页重引导页面。" EventType="打开帮助" EventData="https://jh6485622.github.io/URLRED/main.json" Type="Clickable" />
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="下载" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
@@ -20,3 +21,4 @@
 </local:MyCard>
 
 <!-- 泡菜龙大杂烩 | 作者：jh6485622 !-->
+<!-- 以MFn233的简单主页为想法 !-->
