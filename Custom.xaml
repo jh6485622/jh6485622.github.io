@@ -1,9 +1,9 @@
 <local:MyCard Title="工具箱" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
     <StackPanel Margin="25,40,23,15">
         <local:MyListItem Margin="-2,0,2,0" Logo="pack://application:,,,/images/blocks/CommandBlock.png" Title="优化内存" Info="优化内存，可能导致机械硬盘卡顿亿点点时间" EventType="内存优化" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,2,0" Logo="pack://application:,,,/images/blocks/GrassBlock.png" Title="启动MCBE" Info="启动MCBE，需要安装MCBE" EventType="打开网页" EventData="minecraft://" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,2,0" Logo="pack://application:,,,/images/blocks/Grass.png" Title="启动MCBE" Info="启动MCBE，需要安装MCBE" EventType="打开网页" EventData="minecraft://" Type="Clickable" />
         <local:MyListItem Margin="-2,0,2,0" Logo="pack://application:,,,/images/blocks/GoldBlock.png" Title="启动MCBE商店" Info="启动MCBE商店，需要安装MCBE" EventType="打开网页" EventData="minecraft://?showStoreHomeScreen=1" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,2,0" Logo="https://jh6485622.github.io/icon.png" Title="启动MCBE商店" Info="启动MCBE商店，需要安装MCBE" EventType="打开网页" EventData="minecraft://?showStoreHomeScreen=1" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,2,0" Logo="https://jh6485622.github.io/icon.png" Title="打开我的github.io" Info="打开我的github.io主页" EventType="打开网页" EventData="https://jh6485622.github.io/" Type="Clickable" />
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="下载" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
