@@ -52,17 +52,17 @@
 </local:MyCard>
 <local:MyCard Margin="0,0,0,8" Title="麦块国外" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="24,40,24,15">
-        <local:MyListItem Margin="-2,0,0,0" Title="En Minecraft Wiki" Info="英文 Minecraft 百科分站" EventType="打开网页" EventData="https://minecraft.wiki/" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Title="Minecraft Forum" Info="国外 Minecraft 综合类论坛" EventType="打开网页" EventData="https://www.minecraftforum.net/" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Title="MCArchive" Info="国外 Minecraft Mod 归档/保护/下载" EventType="打开网页" EventData="https://github.com/MCArchive/MCArchive" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Title="Curseforge" Info="国外 Minecraft 综合资源下载站" EventType="打开网页" EventData="https://www.curseforge.com/minecraft" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Title="Modrinth" Info="国外 Minecraft 综合资源下载站" EventType="打开网页" EventData="https://modrinth.com/" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Title="Planet Minecraft" Info="国外 Minecraft 综合类论坛" EventType="打开网页" EventData="https://www.planetminecraft.com/" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Title="MCPEDL" Info="国外 Minecraft 基岩版 Mod/地图/资源包 下载站" EventType="打开网页" EventData="https://mcpedl.com/" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Title="MCDLSpot" Info="国外 Minecraft 基岩版 游戏下载/Mods/皮肤/教程" EventType="打开网页" EventData="https://mcdlspot.com/" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Title="NameMC" Info="国外 Minecraft 玩家用户名与皮肤收录" EventType="打开网页" EventData="https://namemc.com/" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Title="Minecraft Feedback" Info="国外 Minecraft 玩家反馈与建议站" EventType="打开网页" EventData="https://feedback.minecraft.net/hc/en-us/" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Title="Hypixel" Info="打开1.21.11Hypixel服务器(必须安装1.21.11)" EventType="启动游戏" EventData="1.21.11|mc.hypixel.net" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="https://minecraft.wiki/favicon.ico" Title="En Minecraft Wiki" Info="英文 Minecraft 百科分站" EventType="打开网页" EventData="https://minecraft.wiki/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="Minecraft Forum" Info="国外 Minecraft 综合类论坛" EventType="打开网页" EventData="https://www.minecraftforum.net/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="https://raw.githubusercontent.com/MCArchive/MCArchive/refs/heads/master/assets/img/favicon.ico" Title="MCArchive" Info="国外 Minecraft Mod 归档/保护/下载" EventType="打开网页" EventData="https://github.com/MCArchive/MCArchive" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="pack://application:,,,/images/Blocks/Anvil.png" Title="Curseforge" Info="国外 Minecraft 综合资源下载站" EventType="打开网页" EventData="https://www.curseforge.com/minecraft" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="https://modrinth.com/favicon.ico" Title="Modrinth" Info="国外 Minecraft 综合资源下载站" EventType="打开网页" EventData="https://modrinth.com/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="https://www.planetminecraft.com/favicon.ico" Title="Planet Minecraft" Info="国外 Minecraft 综合类论坛" EventType="打开网页" EventData="https://www.planetminecraft.com/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="https://mcpedl.com/favicon.ico" Title="MCPEDL" Info="国外 Minecraft 基岩版 Mod/地图/资源包 下载站" EventType="打开网页" EventData="https://mcpedl.com/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="https://cdn2.steamgriddb.com/icon/f8eb278a8bce873ef365b45e939da38a.png" Title="MCDLSpot" Info="国外 Minecraft 基岩版 游戏下载/Mods/皮肤/教程" EventType="打开网页" EventData="https://mcdlspot.com/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="https://namemc.com/favicon.ico" Title="NameMC" Info="国外 Minecraft 玩家用户名与皮肤收录" EventType="打开网页" EventData="https://namemc.com/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="Minecraft Feedback" Info="国外 Minecraft 玩家反馈与建议站" EventType="打开网页" EventData="https://feedback.minecraft.net/hc/en-us/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="https://hypixel.net/favicon.ico" Title="Hypixel" Info="打开1.21.11Hypixel服务器(必须安装1.21.11)" EventType="启动游戏" EventData="1.21.11|mc.hypixel.net" Type="Clickable" />
     </StackPanel>
 </local:MyCard>
 <local:MyTextButton Text="©jh6485622 2026/2/22 | 泡菜龙大杂烩" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" EventType="打开网页" EventData="https://github.com/jh6485622/jh6485622.github.io" />
