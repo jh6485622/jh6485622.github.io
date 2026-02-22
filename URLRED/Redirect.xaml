@@ -33,25 +33,24 @@
         <local:MyListItem Margin="-2,0,0,0" Logo="https://static.zhihu.com/heifetz/favicon.ico" Title="知乎" Info="有问题，就会有答案" EventType="打开网页" EventData="https://www.zhihu.com/" Type="Clickable" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Margin="0,0,0,12" Title="麦块官方" CanSwap="True" IsSwaped="False">
+<local:MyCard Margin="0,0,0,12" Title="Minecraft官方" CanSwap="True" IsSwaped="False">
     <StackPanel Margin="24,40,24,15">
-        <local:MyListItem Margin="-2,0,0,0" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="麦块官网" Info="麦块国际官网" EventType="打开网页" EventData="https://www.minecraft.net" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Logo="pack://application:,,,/images/Blocks/GrassPath.png" Title="冈易土豆麦块
-        官网" Info="麦块冈易官网" EventType="打开网页" EventData="https://mc.163.com/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="Minecraft官网" Info="Minecraft国际官网" EventType="打开网页" EventData="https://www.minecraft.net" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="pack://application:,,,/images/Blocks/GrassPath.png" Title="冈易Minecraft官网" Info="Minecraft冈易官网" EventType="打开网页" EventData="https://mc.163.com/" Type="Clickable" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Margin="0,0,0,12" Title="麦块国内" CanSwap="True" IsSwaped="True">
+<local:MyCard Margin="0,0,0,12" Title="Minecraft国内" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="24,40,24,15">
-        <local:MyListItem Margin="-2,0,0,0" Logo="https://jh6485622.github.io/minewiki.png" Title="中文 Minecraft Wiki" Info="中文麦块百科" EventType="打开网页" EventData="https://zh.minecraft.wiki/" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Logo="https://www.mcmod.cn/favicon.ico" Title="MCMOD 百科" Info="中文麦块模组百科" EventType="打开网页" EventData="https://www.mcmod.cn/" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Logo="https://www.mcnav.net/wp-content/uploads/2021/08/1627802813-logo_static.png" Title="MC 导航网" Info="国内麦块相关页面导航站" EventType="打开网页" EventData="https://www.mcnav.net/" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Logo="https://sodamc.com/favicon.ico" Title="SodaMC" Info="国内麦块综合类论坛" EventType="打开网页" EventData="https://sodamc.com/" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Logo="https://jh6485622.github.io/nullim.png" Title="我的世界中文下载站" Info="国内麦块综合资源下载站" EventType="打开网页" EventData="https://minecraftxz.com/" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Logo="https://klpbbs.com/favicon.ico" Title="苦力怕 BBS" Info="国内麦块基岩版为主的综合类论坛" EventType="打开网页" EventData="https://klpbbs.com/" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Logo="https://jh6485622.github.io/minebbs.png" Title="MineBBS" Info="国内麦块基岩版为主的综合类论坛" EventType="打开网页" EventData="https://www.minebbs.com/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="https://jh6485622.github.io/minewiki.png" Title="中文 Minecraft Wiki" Info="中文Minecraft百科" EventType="打开网页" EventData="https://zh.minecraft.wiki/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="https://www.mcmod.cn/favicon.ico" Title="MCMOD 百科" Info="中文Minecraft模组百科" EventType="打开网页" EventData="https://www.mcmod.cn/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="https://www.mcnav.net/wp-content/uploads/2021/08/1627802813-logo_static.png" Title="MC 导航网" Info="国内Minecraft相关页面导航站" EventType="打开网页" EventData="https://www.mcnav.net/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="https://sodamc.com/favicon.ico" Title="SodaMC" Info="国内Minecraft综合类论坛" EventType="打开网页" EventData="https://sodamc.com/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="https://jh6485622.github.io/nullim.png" Title="我的世界中文下载站" Info="国内Minecraft综合资源下载站" EventType="打开网页" EventData="https://minecraftxz.com/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="https://klpbbs.com/favicon.ico" Title="苦力怕 BBS" Info="国内Minecraft基岩版为主的综合类论坛" EventType="打开网页" EventData="https://klpbbs.com/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="https://jh6485622.github.io/minebbs.png" Title="MineBBS" Info="国内Minecraft基岩版为主的综合类论坛" EventType="打开网页" EventData="https://www.minebbs.com/" Type="Clickable" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Margin="0,0,0,8" Title="麦块国外" CanSwap="True" IsSwaped="True">
+<local:MyCard Margin="0,0,0,8" Title="Minecraft国外" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="24,40,24,15">
         <local:MyListItem Margin="-2,0,0,0" Logo="https://jh6485622.github.io/minewiki.png" Title="英文 Minecraft Wiki" Info="英文 Minecraft 百科分站" EventType="打开网页" EventData="https://minecraft.wiki/" Type="Clickable" />
         <local:MyListItem Margin="-2,0,0,0" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="Minecraft Forum" Info="国外 Minecraft 综合类论坛" EventType="打开网页" EventData="https://www.minecraftforum.net/" Type="Clickable" />
