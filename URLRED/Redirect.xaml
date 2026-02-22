@@ -60,7 +60,7 @@
         <local:MyListItem Margin="-2,0,0,0" Logo="https://jh6485622.github.io/planetminecraft.png" Title="Planet Minecraft" Info="国外 Minecraft 综合类论坛" EventType="打开网页" EventData="https://www.planetminecraft.com/" Type="Clickable" />
         <local:MyListItem Margin="-2,0,0,0" Logo="https://jh6485622.github.io/mcpedl.png" Title="MCPEDL" Info="国外 Minecraft 基岩版 Mod/地图/资源包 下载站" EventType="打开网页" EventData="https://mcpedl.com/" Type="Clickable" />
         <local:MyListItem Margin="-2,0,0,0" Logo="https://cdn2.steamgriddb.com/icon/f8eb278a8bce873ef365b45e939da38a.png" Title="MCDLSpot" Info="国外 Minecraft 基岩版 游戏下载/Mods/皮肤/教程" EventType="打开网页" EventData="https://mcdlspot.com/" Type="Clickable" />
-        <local:MyListItem Margin="-2,0,0,0" Logo="https://namemc.com/favicon.ico" Title="NameMC" Info="国外 Minecraft 玩家用户名与皮肤收录" EventType="打开网页" EventData="https://namemc.com/" Type="Clickable" />
+        <local:MyListItem Margin="-2,0,0,0" Logo="https://jh6485622.github.io/namemc.png" Title="NameMC" Info="国外 Minecraft 玩家用户名与皮肤收录" EventType="打开网页" EventData="https://namemc.com/" Type="Clickable" />
         <local:MyListItem Margin="-2,0,0,0" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="Minecraft Feedback" Info="国外 Minecraft 玩家反馈与建议站" EventType="打开网页" EventData="https://feedback.minecraft.net/hc/en-us/" Type="Clickable" />
         <local:MyListItem Margin="-2,0,0,0" Logo="https://hypixel.net/favicon.ico" Title="Hypixel" Info="打开1.21.11Hypixel服务器(必须安装1.21.11)" EventType="启动游戏" EventData="1.21.11|mc.hypixel.net" Type="Clickable" />
     </StackPanel>
